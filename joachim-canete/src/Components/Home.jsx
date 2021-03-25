@@ -11,7 +11,11 @@ export default function Home () {
                 alt='joachim headshot'
             />
             <h5>As a full-stack software developer, I strive to curate applications and programs aimed towards engaging and educating our communities. My experiences in serving my community in educational environments have inspired me to communicate effectively in detail-oriented teams on dynamic education programs to serve future generations, being cognizant of diversity and accessibility. My skills in React, JavaScript, and Python allow me to implement full CRUD functionality made possible with RESTful frameworks for the deployment of full-stack web applications.</h5>
-            <Button className='to-folio'>My Portfolio</Button>
+            
+            <Button variant="primary" size="lg" active>
+                Primary button
+            </Button>
+
             <footer>
                 <h2>JOACHIM CAÑETE</h2>
                 <h3>JoachimCanete@gmail.com</h3>
@@ -22,7 +26,7 @@ export default function Home () {
                     <img src='https://i.imgur.com/4BKqJLz.png' alt='linkedin'/>
                 </a>
                 <a href='https://twitter.com/Eulalia19486588'>
-                    <img src='https://i.imgur.com/2ET9vHb.png' alt='twitter'/>
+                    <img src='https://i.imgur.com/I0ICwmC.png' alt='twitter'/>
                 </a>
             </footer>
         </div>
