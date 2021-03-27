@@ -1,5 +1,5 @@
-import './Styles/HomeStyles.css'
-import Button from 'react-bootstrap/Button'
+import './Styles/HomeStyles.css';
+import Button from 'react-bootstrap/Button';
 
 export default function Home () {
     return (
