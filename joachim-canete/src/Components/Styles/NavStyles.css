@@ -1,0 +1,14 @@
+a {
+    font-size: 125%;
+}
+
+/* .nav-row {} */
+
+.nav-link {
+    color: #ffc107;
+    transition: background-color 0.75s ease;
+}
+.nav-link:hover {
+    color: #000000;
+    background-color: #ffc107;
+}
