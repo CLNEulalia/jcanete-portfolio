@@ -9,7 +9,6 @@ function App() {
   return (
     <div className="App">
         <Navigation/>
-        <h1>Joachim Resume HERE</h1>
         {/* <div>
           <AllPagesPDFViewer pdf={JResume}/>
         </div> */}

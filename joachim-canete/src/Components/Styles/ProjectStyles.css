@@ -1,0 +1,22 @@
+.project-body {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card {
+    text-align: center;
+    display: flex;
+    max-width: 40rem;
+    max-height: 28rem;
+    background-color: black;
+    border: 
+        1px solid
+        rgba( 0, 0, 0)
+    ;
+}
+
+.link-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
