@@ -19,7 +19,7 @@ export default function Home () {
             <footer>
                 <h2>JOACHIM CAÑETE</h2>
                 <h3>JoachimCanete@gmail.com</h3>
-                <div>
+                <div className='link-icons'>
                     <a href='https://github.com/CLNEulalia'>
                         <img src='https://i.imgur.com/RM89tzh.png' alt='gitHub'/>
                     </a>
