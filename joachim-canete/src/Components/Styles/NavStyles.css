@@ -2,7 +2,10 @@ a {
     font-size: 125%;
 }
 
-/* .nav-row {} */
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
 
 .nav-link {
     color: #ffc107;

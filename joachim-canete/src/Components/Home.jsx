@@ -21,13 +21,13 @@ export default function Home () {
                 <h3>JoachimCanete@gmail.com</h3>
                 <div className='link-icons'>
                     <a href='https://github.com/CLNEulalia'>
-                        <img src='https://i.imgur.com/RM89tzh.png' alt='gitHub'/>
+                        <img className='icon' src='https://i.imgur.com/rgrBHcg.png' alt='gitHub'/>
                     </a>
                     <a href='https://www.linkedin.com/in/joachim-canete/'>
-                        <img src='https://i.imgur.com/4BKqJLz.png' alt='linkedin'/>
+                        <img className='icon' src='https://i.imgur.com/5hE6V3W.png' alt='linkedin'/>
                     </a>
                     <a href='https://twitter.com/Eulalia19486588'>
-                        <img src='https://i.imgur.com/I0ICwmC.png' alt='twitter'/>
+                        <img className='icon' src='https://i.imgur.com/Nfs16I2.png' alt='twitter'/>
                     </a>
                 </div>
             </footer>
