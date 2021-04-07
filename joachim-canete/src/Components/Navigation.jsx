@@ -4,7 +4,7 @@ export default function Navigation () {
     return (
         <>
             <div className='nav-bar'>
-                <a className='nav-name' href='/'>Joachim Canete</a>
+                <a className='nav-name' href='/'>Joachim Cañete</a>
                 <div className='nav-social'>
                     <a href='https://github.com/CLNEulalia'>
                         <img
@@ -14,7 +14,7 @@ export default function Navigation () {
                     <a href='https://www.linkedin.com/in/joachim-canete/'>
                         <img
                             className='social-icon'
-                            src='https://i.imgur.com/EYdjNKI.png' alt='linkedin'/>
+                            src='https://i.imgur.com/Je6zYKb.png' alt='linkedin'/>
                     </a>
                     <a href='https://twitter.com/Eulalia19486588'>
                         <img
