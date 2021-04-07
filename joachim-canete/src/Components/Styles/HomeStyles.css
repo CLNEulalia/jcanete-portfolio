@@ -1,20 +1,32 @@
+.bio-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 3%;
+}
+
+.bio-pic {
+    max-height: 25rem;
+    max-width: 25rem;
+    padding: 1%;
+}    
+
+.bio-text {
+    display:flex;
+    flex-direction: column;
+    max-width: 25rem;
+    padding: 1%;
+}
+
 .link-icons {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
 }
 
 .icon {
-    margin-left: .15rem;
-    margin-right: .15rem;
-}
-
-img {
-    max-height: 25rem;
-    max-width: 25rem;
-}
-
-.to-folio {
-    width: 4rem;
-    height: 10rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }

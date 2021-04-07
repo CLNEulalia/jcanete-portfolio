@@ -17,6 +17,14 @@ a {
     margin-right: .15rem;
 }
 
+.social-icon:hover {
+    width: 32px;
+    height: 32px;
+    border-radius: 10%;
+    box-shadow:
+        0 0 32px 15px #ffc107;
+}
+
 .nav-name, .nav-resume {
     color: #ffc107;
     transition: background-color 0.75s ease;
