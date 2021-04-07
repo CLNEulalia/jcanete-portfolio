@@ -2,16 +2,28 @@ a {
     font-size: 125%;
 }
 
-.nav {
+.nav-bar {
     display: flex;
     justify-content: space-between;
 }
 
-.nav-link {
+.nav-social {
+    display: flex;
+    flex-direction: row;
+}
+
+.social-icon {
+    margin-left: .15rem;
+    margin-right: .15rem;
+}
+
+.nav-name, .nav-resume {
     color: #ffc107;
     transition: background-color 0.75s ease;
 }
-.nav-link:hover {
+
+.nav-name:hover, .nav-resume:hover {
     color: #000000;
+    text-decoration: none;
     background-color: #ffc107;
 }
