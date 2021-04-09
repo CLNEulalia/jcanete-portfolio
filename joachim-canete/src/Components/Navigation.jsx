@@ -21,11 +21,11 @@ export default function Navigation () {
                             className='social-icon'
                             src='https://i.imgur.com/0algVjw.png' alt='twitter'/>
                     </a>
-                    <a href='mailto:joachimcanete@gmail.com'>
+                    {/* <a href='mailto:joachimcanete@gmail.com'>
                         <img
                             className='social-icon'
                             src='https://i.imgur.com/oQiH9ek.png' alt='email'/>
-                    </a>
+                    </a> */}
                 </div>
                 <a className='nav-resume' href='https://19382163-7a60-4ed3-85a9-51abf6d68295.filesusr.com/ugd/132a6b_586f328265f3434e8b4b7f442edd1664.pdf'>Resume</a>
             </div>

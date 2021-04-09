@@ -15,13 +15,14 @@ export default function Home () {
                     />
                 <div className='bio-text'>
                 <h3>Full-Stack Web-Developer</h3>
-                <h5>As a full-stack software developer, I strive to curate applications and programs aimed towards engaging and educating our communities. My experiences in serving my community in educational environments have inspired me to communicate effectively in detail-oriented teams on dynamic education programs to serve future generations, being cognizant of diversity and accessibility. My skills in React, JavaScript, and Python allow me to implement full CRUD functionality made possible with RESTful frameworks for the deployment of full-stack web applications.</h5>
+                <p>As a full-stack software developer, I strive to curate applications and programs aimed towards engaging and educating our communities. My experiences in serving my community in educational environments have inspired me to communicate effectively in detail-oriented teams on dynamic education programs to serve future generations, being cognizant of diversity and accessibility. My skills in React, JavaScript, and Python allow me to implement full CRUD functionality made possible with RESTful frameworks for the deployment of full-stack web applications.</p>
                 </div>
             </div>
             <Line/>
             
-            <h1>PROJECTS HERE</h1>
-            {/* <Projects/> */}
+            <h3>Projects</h3>
+
+            <Projects/>
 
             <Line/>
             <footer>
