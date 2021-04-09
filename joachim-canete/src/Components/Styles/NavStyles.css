@@ -1,5 +1,13 @@
 a {
     font-size: 125%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.nav-name, .nav-resume {
+    padding: 1%;
+    color: #ffc107;
+    transition: background-color 0.75s ease;
 }
 
 .nav-bar {
@@ -20,18 +28,19 @@ a {
 .social-icon:hover {
     width: 32px;
     height: 32px;
-    border-radius: 10%;
     box-shadow:
-        0 0 32px 15px #ffc107;
-}
-
-.nav-name, .nav-resume {
-    color: #ffc107;
-    transition: background-color 0.75s ease;
+        0 2px 0 0  7px;
 }
 
 .nav-name:hover, .nav-resume:hover {
     color: #000000;
     text-decoration: none;
     background-color: #ffc107;
+}
+
+@media only screen and (min-width: 768px) {
+    .social-icon {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
 }

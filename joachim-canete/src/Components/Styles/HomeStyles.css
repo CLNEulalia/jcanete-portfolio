@@ -1,14 +1,12 @@
 .bio-block {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
     padding: 3%;
 }
 
 .bio-pic {
     max-height: 25rem;
     max-width: 25rem;
-    padding: 1%;
 }    
 
 .bio-text {
@@ -22,11 +20,28 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 4rem;
-    margin-bottom: 4rem;
+    margin: 4rem auto;
 }
 
 .icon {
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin: auto 1rem;
+}
+
+@media only screen and (min-width: 768px) {
+    .bio-block {
+        flex-direction: row;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .bio-pic {
+        margin: auto 1rem;
+    }
+    .bio-text {
+        margin: auto 1rem;
+        padding: 0%;
+    }
+    h3, h5 {
+        margin-bottom: 0;
+    }
 }
