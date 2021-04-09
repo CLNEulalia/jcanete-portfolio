@@ -37,9 +37,6 @@ export default function Home () {
                     <a href='https://twitter.com/Eulalia19486588'>
                         <img className='icon' src='https://i.imgur.com/0algVjw.png' alt='twitter'/>
                     </a>
-                    <a href='mailto:joachimcanete@gmail.com'>
-                        <img className='icon' src='https://i.imgur.com/oQiH9ek.png' alt='email'/>
-                    </a>
                 </div>
                 <p className='copyright'>© JCanete</p>
             </footer>
