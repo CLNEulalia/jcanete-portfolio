@@ -5,6 +5,7 @@ import Resume from './Components/Resume';
 import Projects from './Components/Projects';
 import Navigation from './Components/Navigation';
 
+
 function App() {
   return (
     <div className="App">
